@@ -34,7 +34,7 @@ const [searchTerm, setSearchTerm] = useState('')
      */
     const newPosts = posts.map(post => {
       if(post.id === postId){
-        return {...post, likes: post.likes +1}
+        return {...post, likes: post.likes + 1}
       } else {
         return post
       }
